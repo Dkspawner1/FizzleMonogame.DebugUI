@@ -1,0 +1,12 @@
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/bin/Release/net8.0/FizzleMonogame.DebugUI.deps.json
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/bin/Release/net8.0/FizzleMonogame.DebugUI.dll
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/bin/Release/net8.0/FizzleMonogame.DebugUI.pdb
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.csproj.AssemblyReference.cache
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.GeneratedMSBuildEditorConfig.editorconfig
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.AssemblyInfoInputs.cache
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.AssemblyInfo.cs
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.csproj.CoreCompileInputs.cache
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.dll
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/refint/FizzleMonogame.DebugUI.dll
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/FizzleMonogame.DebugUI.pdb
+/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/obj/Release/net8.0/ref/FizzleMonogame.DebugUI.dll

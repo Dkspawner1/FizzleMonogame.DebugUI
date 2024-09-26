@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FizzleMonogame.DebugUI</id>
+    <version>1.0.0</version>
+    <authors>Dkspawner1</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <description>A debug UI library for MonoGame using ImGui.NET and MonoGame.Extended</description>
+    <tags>monogame imgui debugui gamedev</tags>
+    <repository type="git" url="https://github.com/Dkspawner1/FizzleMonogame.DebugUI" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="ImGui.NET" version="1.89.9.3" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.2.1105" exclude="Build,Analyzers" />
+        <dependency id="Monogame.ImGui" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/bin/Release/net8.0/FizzleMonogame.DebugUI.dll" target="lib/net8.0/FizzleMonogame.DebugUI.dll" />
+    <file src="/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/README.md" target="/README.md" />
+  </files>
+</package>
