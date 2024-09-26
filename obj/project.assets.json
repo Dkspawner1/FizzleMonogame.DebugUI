@@ -80,24 +80,17 @@
           }
         }
       },
-      "Monogame.ImGui/1.0.0": {
+      "Monogame.ImGui.Standard/1.0.0": {
         "type": "package",
         "dependencies": {
-          "ImGui.NET": "1.72.0",
-          "MonoGame.Framework.DesktopGL": "3.7.1.189",
-          "System.Buffers": "4.5.0",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+          "ImGui.NET": "1.78.0",
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
         },
         "compile": {
-          "lib/net462/MonoGame.ImGui.dll": {
-            "related": ".pdb"
-          }
+          "lib/netstandard2.0/Monogame.ImGui.Standard.dll": {}
         },
         "runtime": {
-          "lib/net462/MonoGame.ImGui.dll": {
-            "related": ".pdb"
-          }
+          "lib/netstandard2.0/Monogame.ImGui.Standard.dll": {}
         }
       },
       "MonoGame.Library.SDL/2.26.5.5": {
@@ -134,7 +127,7 @@
           }
         }
       },
-      "System.Buffers/4.5.0": {
+      "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -152,7 +145,7 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Numerics.Vectors/4.5.0": {
+      "System.Numerics.Vectors/4.4.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -161,7 +154,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0": {
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
@@ -169,7 +162,7 @@
           }
         },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         }
@@ -226,18 +219,17 @@
         "runtimes/win-x86/native/soft_oal.dll"
       ]
     },
-    "Monogame.ImGui/1.0.0": {
-      "sha512": "I3AeJ4jDS7YCmVlZDHekY4uLj9t2cHFR6TQl3yrQehnDfhsDXI56D1WjTAsz9njCHJo14Xk+gFoaJYahJ38pvw==",
+    "Monogame.ImGui.Standard/1.0.0": {
+      "sha512": "JawIXUgNwkc2mcmnz38iOXnJYr5rnGvBBsUrWppTi3yVBBs4Te2SQnaNMlCwabJewtN7RhJYHM0vdxsze3PMFg==",
       "type": "package",
-      "path": "monogame.imgui/1.0.0",
+      "path": "monogame.imgui.standard/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net462/MonoGame.ImGui.dll",
-        "lib/net462/MonoGame.ImGui.pdb",
-        "lib/net462/libcimgui.dylib",
-        "monogame.imgui.1.0.0.nupkg.sha512",
-        "monogame.imgui.nuspec"
+        "LICENSE",
+        "lib/netstandard2.0/Monogame.ImGui.Standard.dll",
+        "monogame.imgui.standard.1.0.0.nupkg.sha512",
+        "monogame.imgui.standard.nuspec"
       ]
     },
     "MonoGame.Library.SDL/2.26.5.5": {
@@ -270,10 +262,10 @@
         "nvorbis.nuspec"
       ]
     },
-    "System.Buffers/4.5.0": {
-      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
-      "path": "system.buffers/4.5.0",
+      "path": "system.buffers/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -284,16 +276,12 @@
         "lib/netstandard1.1/System.Buffers.xml",
         "lib/netstandard2.0/System.Buffers.dll",
         "lib/netstandard2.0/System.Buffers.xml",
-        "lib/uap10.0.16299/_._",
-        "ref/net45/System.Buffers.dll",
-        "ref/net45/System.Buffers.xml",
         "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Buffers.dll",
         "ref/netstandard1.1/System.Buffers.xml",
         "ref/netstandard2.0/System.Buffers.dll",
         "ref/netstandard2.0/System.Buffers.xml",
-        "ref/uap10.0.16299/_._",
-        "system.buffers.4.5.0.nupkg.sha512",
+        "system.buffers.4.4.0.nupkg.sha512",
         "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -320,10 +308,10 @@
         "version.txt"
       ]
     },
-    "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
       "type": "package",
-      "path": "system.numerics.vectors/4.5.0",
+      "path": "system.numerics.vectors/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -340,15 +328,12 @@
         "lib/netstandard2.0/System.Numerics.Vectors.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
         "ref/net46/System.Numerics.Vectors.dll",
         "ref/net46/System.Numerics.Vectors.xml",
         "ref/netcoreapp2.0/_._",
@@ -356,28 +341,25 @@
         "ref/netstandard1.0/System.Numerics.Vectors.xml",
         "ref/netstandard2.0/System.Numerics.Vectors.dll",
         "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
-      "sha512": "HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.6.0",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
@@ -386,7 +368,7 @@
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -441,14 +423,14 @@
     "net8.0": [
       "ImGui.NET >= 1.89.9.3",
       "MonoGame.Framework.DesktopGL >= 3.8.2.1105",
-      "Monogame.ImGui >= 1.0.0"
+      "Monogame.ImGui.Standard >= 1.0.0"
     ]
   },
   "packageFolders": {
     "/home/dorll/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/FizzleMonogame.DebugUI.csproj",
       "projectName": "FizzleMonogame.DebugUI",
@@ -463,6 +445,7 @@
         "net8.0"
       ],
       "sources": {
+        "/home/dorll/LocalNuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -489,7 +472,7 @@
             "target": "Package",
             "version": "[3.8.2.1105, )"
           },
-          "Monogame.ImGui": {
+          "Monogame.ImGui.Standard": {
             "target": "Package",
             "version": "[1.0.0, )"
           }
@@ -519,17 +502,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Monogame.ImGui 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Monogame.ImGui",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

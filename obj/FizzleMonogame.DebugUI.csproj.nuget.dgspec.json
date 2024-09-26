@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/FizzleMonogame.DebugUI.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "/home/dorll/Desktop/c#/FizzleMonogame.DebugUI/FizzleMonogame.DebugUI.csproj",
         "projectName": "FizzleMonogame.DebugUI",
@@ -20,6 +20,7 @@
           "net8.0"
         ],
         "sources": {
+          "/home/dorll/LocalNuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +47,7 @@
               "target": "Package",
               "version": "[3.8.2.1105, )"
             },
-            "Monogame.ImGui": {
+            "Monogame.ImGui.Standard": {
               "target": "Package",
               "version": "[1.0.0, )"
             }

@@ -8,6 +8,7 @@ using FizzleMonogame.DebugUI.Interfaces;
 using MonoGame.ImGui;
 using FizzleMonogame.DebugUI.Renderer;
 using Microsoft.Xna.Framework;
+using MonoGame.ImGui.Standard;
 
 
 namespace FizzleMonogame.DebugUI;
@@ -40,7 +41,10 @@ public class DebugGUI<T> where T : IDebuggable
     {
         if (GuiRenderer != null)
             throw new InvalidOperationException("DebugGUI has already been initialized.");
-        GuiRenderer = new(game);
+        GuiRenderer = new ImGUIRenderer(game);
+        GuiRenderer.Initialize();
+        ImGui.CreateContext();
+        GuiRenderer.RebuildFontAtlas();
     }
     public static void LoadContent() => GuiRenderer.RebuildFontAtlas();
     public static void ToggleDebugWindow() => showDebugWindow = !showDebugWindow;
